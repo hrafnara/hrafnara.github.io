@@ -13,4 +13,5 @@
     git branch - býr til git branch
 4. Hvað er útgáfu stýringin (vesion control)?
     Útgáfu stýring er hlutur af flestum fyle-um og er til þess að sé hægt fara á fyrirverandi útgáfur.
-
+5. Á nýju greininn minni get ég sagt mína skoðun á Git Umsjónarkerfinu...
+    þetta er mjög kúl, en frekar flókið og rugglandi.
