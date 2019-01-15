@@ -10,4 +10,7 @@
 3. Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er þeirri aðgerð?
     Git log - synir sögu gommita
     git checkout - leyfir manni að færa sig milli git branch-a
-    git branch -
+    git branch - býr til git branch
+4. Hvað er útgáfu stýringin (vesion control)?
+    Útgáfu stýring er hlutur af flestum fyle-um og er til þess að sé hægt fara á fyrirverandi útgáfur.
+
