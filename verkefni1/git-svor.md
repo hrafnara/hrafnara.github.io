@@ -13,5 +13,15 @@
     git branch - býr til git branch
 4. Hvað er útgáfu stýringin (vesion control)?
     Útgáfu stýring er hlutur af flestum fyle-um og er til þess að sé hægt fara á fyrirverandi útgáfur.
+<<<<<<< HEAD
 5. Á nýju greininn minni get ég sagt mína skoðun á Git Umsjónarkerfinu...
     þetta er mjög kúl, en frekar flókið og rugglandi.
+=======
+5. Hverjir eru helstu kostir við að nota GIT?
+    hægt er að breyta á skjölum sem er nú þegar á netinu
+6. Hverjir eru helstu kostir við að nota GIT?
+    það fer eftir, til dæmis er þetta góð leið til að sanna fyrir yfirmanni þínum að þú warst að vinna.
+7. Hvað er átt við með “Working Directory”?” og “Staging Area” í GIT?
+    working directory er mappan sem þú vinnur í,
+    staging area er stigið sem er á undan gommit.
+>>>>>>> master
