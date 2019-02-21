@@ -4,4 +4,8 @@ title: About
 ---
 # about page
 
-This page tells you a little bit about me.
+
+
+
+Þessi síða er eingongu ætluð mér sem aðferð til að halda við 
+D&D-inu mínu

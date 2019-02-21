@@ -1,3 +1,35 @@
 .current {
     color: green;
-  }
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background:#012146;
+    color: #ffffff;
+    width:100vh;
+    
+    
+}
+
+.valmynd2 {
+  background-attachment: fixed;
+  background: #ffffff;
+  padding: 1em;
+
+}
+header {
+  background: rgb(90, 143, 173);
+    margin: -10px;
+    padding: 30px; 
+}
+
+@media (max-width: 550px) {
+  .valmynd2{
+  display: grid; 
+  grid-template-columns: 1fr;
+}}
+@media (min-width: 551px){
+  .valmynd2 {
+    display: grid;
+    grid-auto-flow: column;  
+    text-align: end;
+}}
