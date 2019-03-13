@@ -1,26 +1,46 @@
 .current {
     color: green;
 }
+
+
 body {
+    color: #000;
+    display: grid;
+    grid-auto-columns: 5fr;
+    grid-template-areas:
+    "sideL header header header header sideR"
+    "sideL main main main main sideR"
+    "sideL main main main main sideR"
+    "sideL footer footer footer footer sideR";
+    margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background:#012146;
     color: #ffffff;
-    width:100vh;
+    align-self: center;
     
-    
+
 }
 
+main{
+  grid-area: main;
+  background-color: #000;
+  height: 100vh;
+  margin-top: 4em;
+}
+
+header{
+  background: red;
+  grid-area: header;
+  position: fixed;
+  width: 100%;
+  height: 4em;
+}
 .valmynd2 {
-  background-attachment: fixed;
   background: #ffffff;
   padding: 1em;
 
 }
-header {
-  background: rgb(90, 143, 173);
-    margin: -10px;
-    padding: 30px; 
-}
+
 
 @media (max-width: 550px) {
   .valmynd2{

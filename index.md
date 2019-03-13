@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
-# {{ "Hello World!" | downcase }}
+![alt texts](/assets/logo/drawing.svg)
+{{ "Hello World!" | downcase }}
 
 
