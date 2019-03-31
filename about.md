@@ -7,5 +7,4 @@ title: About
 
 
 
-Þessi síða er eingongu ætluð mér sem aðferð til að halda við 
-D&D-inu mínu
+#Þessi síða er eingongu ætluð mér sem aðferð til að halda við D&D-inu mínu
