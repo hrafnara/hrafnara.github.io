@@ -1,14 +1,24 @@
-.current {
-    color: green;
-}
+$colors:(
+  main: darkgray,
+  sec: darkblue);
+
+@function color($color-benis)
+ {@return map-get($colors, $color-benis)}
+
 .baby {
   width: 100%; 
 }
+
+.lago{
+  height:50% ;
+}
+
 .sideL{
-  grid-area: sideL;
+  grid-area: logo;
   img {
     height: 17em;
   }
+  margin-top: 4em;
 
 }
 
@@ -17,60 +27,84 @@
   margin-top: 10em;
   border: solid red;
   margin-bottom: 10em;
-
+  width: 150px;
+  float: right;
 }
 
 .black{
   color: black;
   text-align: center;
+  
 }
 
 body {
-    color: #000;
+ 
     display: grid;
     grid-auto-columns: 5fr;
     grid-template-areas:
     "sideL header header header header sideR"
+    "sideL logo logo logo logo sideR"
+    "sideL main main main main sideR"
+    "sideL main main main main sideR"
     "sideL main main main main sideR"
     "sideL main main main main sideR"
     "sideL footer footer footer footer sideR";
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background:#012146;
-    color: #ffffff;
-    align-self: center;
+    background: url(/assets/myndir/bakgrunn.jpg) repeat fixed 0 0;
+
+    
     
 
 }
 
 main{
   grid-area: main;
-  background-color: #000;
+  background-color: darkgray;
   height: 100vh;
-  margin-top: 4em;
+  box-shadow: inset 0 0 10px black;
 }
 
 header{
-  color: red;
   grid-area: header;
   position: fixed;
   width: 100%;
   height: 4em;
+  
+}
+.valmynd{
+  box-shadow: 0 0 5px black;
+  border: solid 1px black;
+  margin: 1em;
+  padding: .3em 1em;
+  background: color(main) ;
+  text-decoration: none;
+}
+.valmynd:visited,
+.valmynd:active {
+  box-shadow: inset 0 0 5px black
 }
 .valmynd2 {
-  background: #ffffff;
-  padding: 1em;
-
+  background: color(sec);
 }
 
 @media (max-width: 550px) {
   .valmynd2{
   display: grid; 
   grid-template-columns: 1fr;
+  .lago{
+    width: 11px;
+    height: 11px;
+  }
+
+  
 }}
 @media (min-width: 551px){
   .valmynd2 {
     display: grid;
     grid-auto-flow: column;  
-    text-align: end;
+    text-align: center;
+ 
 }}
+
+
